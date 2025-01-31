@@ -23,6 +23,7 @@
               colors: {
                 clifford: '#da373d',
                 'green-color': 'rgba(23, 152, 0, 1)',
+                primary: '#EFEBE3'
               }
             }
           }
@@ -40,32 +41,33 @@
 </head>
 <body class="sora-font">
     <!-- Header section start here -->
-     <header class="max-w-screen bg-gradient-to-r from-bg-[rgba(255, 255, 255, 1)] to-bg-[rgba(239, 235, 227, 1)]">
+     <header class="max-w-screen bg-gradient-to-b from-bg-[rgba(255, 255, 255, 1)] to-bg-[rgba(239, 235, 227, 1)]">
         <!-- Navbar start here -->
-         <nav class="flex items-center sm:justify-between md:container md:mx-auto md:py-6 lg:py-10 mt-6 md:mb-20 lg:mb-25">
+         <nav class="flex items-center sm:justify-between md:container md:mx-auto md:px-4 lg:px-6 mt-6 md:mb-40 lg:mb-50">
             <!-- Image Content -->
-              <div>
-                <img class="w-40 h-15 sm:pl-8" src="./Images/logo-header.png" alt="This is website logo">
+              <div>    
+                <img class="md:w-36 md:h-13 lg:w-40 lg:h-15 sm:pl-8" src="./Images/logo-header.png" alt="This is website logo">
+                <!-- <img class="visible md:hidden" src="./Images/logo-header-2.png" alt="This is website logo"> -->
               </div>
             <!-- Link + Icon + Button -->
               <div class="hidden md:flex items-center">
                  <!-- Link Content -->
              <div class="md:ml-10 lg:ml-16">
                 <ul class="flex md:text-base lg:text-xl  color-black">
-                    <li class="md:mr-4 lg:mr-7"><a href="#">Product</a></li>
-                    <li class="md:mr-4 lg:mr-7"><a href="#">Services</a></li>
+                    <li class="md:mr-4 lg:mr-5"><a href="#">Product</a></li>
+                    <li class="md:mr-4 lg:mr-5"><a href="#">Services</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <li class="md:mr-4 lg:mr-7 md:ml-10 lg:ml-12"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li class="md:mr-4 lg:mr-7"><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
+                    <li class="md:mr-2 lg:mr-3 md:ml-10 lg:ml-12"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="md:mr-2 lg:mr-3"><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
                 </ul>
              </div>
             <!-- Button Content -->
              <div class="md:text-base lg:text-xl color-black">
-                <button class="md:mr-4 lg:mr-7 md:py-[6px] md:px-[15px] lg:py-[10px] lg:px-[30px] bg-white border border-green-color rounded-xl"><a href="#">Login</a></button>
+                <button class="md:mr-1 lg:mr-3 md:py-[6px] md:px-[15px] lg:py-[10px] lg:px-[30px] bg-white border border-green-color rounded-xl"><a href="#">Login</a></button>
                 <button class="md:py-[6px] md:px-[15px] lg:py-[10px] lg:px-[30px] bg-green-color rounded-xl text-white"><a href="#">Register</a></button>
              </div>
               </div>
-             <i class="fa-solid fa-bars visible md:hidden text-4xl text-green-color sm:pr-8"></i>
+             <i class="fa-solid fa-bars sm:visible md:hidden text-4xl text-green-color sm:pr-8"></i>
          </nav>
          <hr class="sm:visible md:hidden lg:hidden mt-4 mb-10 border border-green-color opacity-20">
         <!-- Navbar end here -->
@@ -97,14 +99,47 @@
 
 
     <!-- Main section start here -->
-     <main class="mt-20">
-        hello
+     <main>
+        <!-- Services section start here -->
+         <section  class="sm:px-9 md:container lg:container  md:mx-auto lg:mx-auto md:px-9 lg:px-11 mt-20">
+            <h2 class="font-bold text-2xl text-green-color mb-8">Services</h2>
+            <!-- Cards -->
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div class="w-[100%] h-auto bg-primary text-center pt-10 rounded-md">
+                    <img class="w-20 h-20 mx-auto bg-white rounded-[50%] p-3" src="./Images/service.png" alt="This is service logo">
+                    <br>
+                    <h3 class="font-bold">24/7 Services </h3>
+                    <br>
+                    <p class="px-3 sm:pb-8 md:pb-3">This is unique website.It supply best quality product.You can buy any product in this website.This website always service for every person.</p>
+                </div>
+
+                <div class="w-[100%] h-auto bg-primary text-center pt-10 rounded-md">
+                    <img class="w-20 h-20 mx-auto bg-white rounded-[50%] p-3" src="./Images/delivery.png" alt="This is service logo">
+                    <br>
+                    <h3 class="font-bold">24/7 Services </h3>
+                    <br>
+                    <p class="px-3 sm:pb-8 lg:pb-3">This is unique website.It supply best quality product.You can buy any product in this website.This website always service for every person.</p>
+                </div>
+
+                <div class="w-[100%] h-auto bg-primary text-center pt-10 rounded-md">
+                    <img class="w-20 h-20 mx-auto bg-white rounded-[50%] p-3" src="./Images/healthy.png" alt="This is service logo">
+                    <br>
+                    <h3 class="font-bold">24/7 Services </h3>
+                    <br>
+                    <p class="px-3 sm:pb-8 md:pb-3">This is unique website.It supply best quality product.You can buy any product in this website.This website always service for every person.</p>
+                </div>
+             </div>
+         </section>
+        <!-- Services section end here -->
+
+
+         
      </main>
     <!-- Main section end here -->
 
 
     <!-- Footer section start here -->
-     <footer></footer>
+     <footer><h3 class="mt-40">Hello</h3></footer>
     <!-- Footer section end here -->
 </body>
 </html>
