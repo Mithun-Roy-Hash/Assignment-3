@@ -22,6 +22,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'green-color': 'rgba(23, 152, 0, 1)',
               }
             }
           }
@@ -39,7 +40,39 @@
 </head>
 <body class="sora-font">
     <!-- Header section start here -->
-     <header></header>
+     <header class="max-w-screen">
+        <!-- Navbar start here -->
+         <nav class="flex items-center sm:justify-between md:container md:mx-auto md:py-6 lg:py-10 mt-6">
+            <!-- Image Content -->
+              <div>
+                <img class="w-40 h-15 sm:pl-8" src="./Images/logo-header.png" alt="This is website logo">
+              </div>
+            <!-- Link + Icon + Button -->
+              <div class="hidden md:flex items-center">
+                 <!-- Link Content -->
+             <div class="md:ml-10 lg:ml-16">
+                <ul class="flex md:text-base lg:text-xl  color-black">
+                    <li class="md:mr-4 lg:mr-7"><a href="#">Product</a></li>
+                    <li class="md:mr-4 lg:mr-7"><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li class="md:mr-4 lg:mr-7 md:ml-10 lg:ml-12"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="md:mr-4 lg:mr-7"><a href="#"><i class="fa-solid fa-cart-plus"></i></a></li>
+                </ul>
+             </div>
+            <!-- Button Content -->
+             <div class="md:text-base lg:text-xl color-black">
+                <button class="md:mr-4 lg:mr-7 md:py-[6px] md:px-[15px] lg:py-[10px] lg:px-[30px] bg-white border border-green-color rounded-xl"><a href="#">Login</a></button>
+                <button class="md:py-[6px] md:px-[15px] lg:py-[10px] lg:px-[30px] bg-green-color rounded-xl text-white"><a href="#">Register</a></button>
+             </div>
+              </div>
+             <i class="fa-solid fa-bars visible md:hidden text-4xl text-green-color sm:pr-8"></i>
+         </nav>
+        <!-- Navbar end here -->
+
+
+
+
+     </header>
     <!-- Header section end here -->
 
 
